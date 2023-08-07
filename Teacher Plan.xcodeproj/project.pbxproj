@@ -1,0 +1,965 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E2192A52A7FA9A7006D0617 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2192A22A7FA9A7006D0617 /* View.swift */; };
+		9E2192A82A7FAE86006D0617 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613732A7E375300248337 /* UserDefaults.swift */; };
+		9E2192A92A7FAE86006D0617 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613732A7E375300248337 /* UserDefaults.swift */; };
+		9E46134C2A7E372600248337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E46134B2A7E372600248337 /* Assets.xcassets */; };
+		9E46134F2A7E372600248337 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E46134E2A7E372600248337 /* Preview Assets.xcassets */; };
+		9E4613552A7E372600248337 /* Teacher Plan Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9E4613542A7E372600248337 /* Teacher Plan Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9E46135A2A7E372600248337 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613592A7E372600248337 /* Application.swift */; };
+		9E46135C2A7E372600248337 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46135B2A7E372600248337 /* MainView.swift */; };
+		9E46135E2A7E372700248337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E46135D2A7E372700248337 /* Assets.xcassets */; };
+		9E4613612A7E372700248337 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4613602A7E372700248337 /* Preview Assets.xcassets */; };
+		9E4613762A7E375300248337 /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46136E2A7E375300248337 /* DayOfWeek.swift */; };
+		9E4613772A7E375300248337 /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46136E2A7E375300248337 /* DayOfWeek.swift */; };
+		9E4613782A7E375300248337 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46136F2A7E375300248337 /* Teacher.swift */; };
+		9E4613792A7E375300248337 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46136F2A7E375300248337 /* Teacher.swift */; };
+		9E46137A2A7E375300248337 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613702A7E375300248337 /* Meal.swift */; };
+		9E46137B2A7E375300248337 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613702A7E375300248337 /* Meal.swift */; };
+		9E46137C2A7E375300248337 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613712A7E375300248337 /* School.swift */; };
+		9E46137D2A7E375300248337 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613712A7E375300248337 /* School.swift */; };
+		9E46137E2A7E375300248337 /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613722A7E375300248337 /* TimeTable.swift */; };
+		9E46137F2A7E375300248337 /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613722A7E375300248337 /* TimeTable.swift */; };
+		9E4613802A7E375300248337 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613732A7E375300248337 /* UserDefaults.swift */; };
+		9E4613892A7E379A00248337 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613822A7E379A00248337 /* Application.swift */; };
+		9E4613962A7E384E00248337 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4613952A7E384E00248337 /* WidgetKit.framework */; };
+		9E4613982A7E384E00248337 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4613972A7E384E00248337 /* SwiftUI.framework */; };
+		9E46139F2A7E385000248337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E46139E2A7E385000248337 /* Assets.xcassets */; };
+		9E4613A32A7E385000248337 /* WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9E4613932A7E384E00248337 /* WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9E4613AB2A7E38A700248337 /* TimeTableWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613A82A7E38A700248337 /* TimeTableWidget.swift */; };
+		9E4613AC2A7E38A700248337 /* AppWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613A92A7E38A700248337 /* AppWidgetBundle.swift */; };
+		9E4613AF2A7E39B800248337 /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46136E2A7E375300248337 /* DayOfWeek.swift */; };
+		9E4613B12A7E39B800248337 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46136F2A7E375300248337 /* Teacher.swift */; };
+		9E4613B22A7E39B800248337 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613702A7E375300248337 /* Meal.swift */; };
+		9E4613B32A7E39B800248337 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613712A7E375300248337 /* School.swift */; };
+		9E4613B42A7E39B800248337 /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613722A7E375300248337 /* TimeTable.swift */; };
+		9E6D5AD92A7E4D1E000947B3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D5AD82A7E4D1E000947B3 /* MainView.swift */; };
+		9E6D5ADB2A7E512B000947B3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D5ADA2A7E512B000947B3 /* Color.swift */; };
+		9E6D5ADC2A7E512B000947B3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D5ADA2A7E512B000947B3 /* Color.swift */; };
+		9E6D5ADD2A7E512B000947B3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D5ADA2A7E512B000947B3 /* Color.swift */; };
+		9E6D5AE12A7E602B000947B3 /* ModalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D5AE02A7E602B000947B3 /* ModalModel.swift */; };
+		9E6D5AE82A7E63F8000947B3 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D5AE72A7E63F8000947B3 /* ThemeColor.swift */; };
+		9E7EB0EA2A7E8B7A0018616A /* SettingModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EB0E92A7E8B7A0018616A /* SettingModal.swift */; };
+		9E7EB0ED2A7E8BD40018616A /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EB0EC2A7E8BD40018616A /* ProfileCard.swift */; };
+		9E7EB0F42A7E90170018616A /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EB0F32A7E90170018616A /* SettingModel.swift */; };
+		9E7EB0F62A7EA8120018616A /* ErrorModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EB0F52A7EA8120018616A /* ErrorModal.swift */; };
+		9E7EB0F82A7EADFB0018616A /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EB0F72A7EADFB0018616A /* TimeTableView.swift */; };
+		9E7EB0FA2A7EB15A0018616A /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EB0F92A7EB15A0018616A /* MealView.swift */; };
+		9E7EB0FC2A7EB3210018616A /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D5AE72A7E63F8000947B3 /* ThemeColor.swift */; };
+		9E963CD02A80BAE8008686FB /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E963CCF2A80BAE8008686FB /* TimeTableView.swift */; };
+		9EA0E1002A80A41200B29612 /* WatchConnectivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0E0FF2A80A41200B29612 /* WatchConnectivityModel.swift */; };
+		9EA0E1042A80A49A00B29612 /* WatchConnectivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0E1022A80A49600B29612 /* WatchConnectivityModel.swift */; };
+		9EA0E1072A80AFA600B29612 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0E1062A80AFA600B29612 /* MealView.swift */; };
+		9EAF81A22A80C6CD0057557D /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF81A12A80C6CD0057557D /* ErrorView.swift */; };
+		9EAF81A72A80CAA70057557D /* FirstSettingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF81A62A80CAA60057557D /* FirstSettingInfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E4613562A7E372600248337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E46133C2A7E372500248337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E4613532A7E372600248337;
+			remoteInfo = "Teacher Plan Watch App";
+		};
+		9E4613A12A7E385000248337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E46133C2A7E372500248337 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E4613922A7E384E00248337;
+			remoteInfo = WidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E4613672A7E372700248337 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9E4613552A7E372600248337 /* Teacher Plan Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4613A72A7E385000248337 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9E4613A32A7E385000248337 /* WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9E2192A22A7FA9A7006D0617 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		9E2192A72A7FADEE006D0617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E4613442A7E372500248337 /* Teacher Plan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teacher Plan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E46134B2A7E372600248337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E46134E2A7E372600248337 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E4613542A7E372600248337 /* Teacher Plan Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teacher Plan Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4613592A7E372600248337 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		9E46135B2A7E372600248337 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9E46135D2A7E372700248337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E4613602A7E372700248337 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E46136E2A7E375300248337 /* DayOfWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayOfWeek.swift; sourceTree = "<group>"; };
+		9E46136F2A7E375300248337 /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		9E4613702A7E375300248337 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		9E4613712A7E375300248337 /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		9E4613722A7E375300248337 /* TimeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
+		9E4613732A7E375300248337 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		9E4613822A7E379A00248337 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		9E4613932A7E384E00248337 /* WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4613952A7E384E00248337 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		9E4613972A7E384E00248337 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9E46139E2A7E385000248337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E4613A02A7E385000248337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E4613A82A7E38A700248337 /* TimeTableWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableWidget.swift; sourceTree = "<group>"; };
+		9E4613A92A7E38A700248337 /* AppWidgetBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppWidgetBundle.swift; sourceTree = "<group>"; };
+		9E6D5AD82A7E4D1E000947B3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9E6D5ADA2A7E512B000947B3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9E6D5AE02A7E602B000947B3 /* ModalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalModel.swift; sourceTree = "<group>"; };
+		9E6D5AE72A7E63F8000947B3 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		9E7EB0E92A7E8B7A0018616A /* SettingModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModal.swift; sourceTree = "<group>"; };
+		9E7EB0EC2A7E8BD40018616A /* ProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
+		9E7EB0F32A7E90170018616A /* SettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
+		9E7EB0F52A7EA8120018616A /* ErrorModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModal.swift; sourceTree = "<group>"; };
+		9E7EB0F72A7EADFB0018616A /* TimeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
+		9E7EB0F92A7EB15A0018616A /* MealView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		9E7EB0FE2A7EB3FA0018616A /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		9E7EB0FF2A7EB4590018616A /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		9E963CCF2A80BAE8008686FB /* TimeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
+		9EA0E0FF2A80A41200B29612 /* WatchConnectivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityModel.swift; sourceTree = "<group>"; };
+		9EA0E1022A80A49600B29612 /* WatchConnectivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityModel.swift; sourceTree = "<group>"; };
+		9EA0E1062A80AFA600B29612 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		9EAF81A12A80C6CD0057557D /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		9EAF81A62A80CAA60057557D /* FirstSettingInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSettingInfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E4613412A7E372500248337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4613512A7E372600248337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4613902A7E384E00248337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4613982A7E384E00248337 /* SwiftUI.framework in Frameworks */,
+				9E4613962A7E384E00248337 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E2192A62A7FA9FF006D0617 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9E2192A22A7FA9A7006D0617 /* View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9E46133B2A7E372500248337 = {
+			isa = PBXGroup;
+			children = (
+				9E46136B2A7E375300248337 /* Common */,
+				9E4613992A7E384E00248337 /* Widget */,
+				9E4613462A7E372500248337 /* App (iOS) */,
+				9E4613582A7E372600248337 /* App (watchOS) */,
+				9E4613942A7E384E00248337 /* Frameworks */,
+				9E4613452A7E372500248337 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E4613452A7E372500248337 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E4613442A7E372500248337 /* Teacher Plan.app */,
+				9E4613542A7E372600248337 /* Teacher Plan Watch App.app */,
+				9E4613932A7E384E00248337 /* WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E4613462A7E372500248337 /* App (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				9E6D5AE62A7E63EE000947B3 /* Theme */,
+				9E6D5ADF2A7E600C000947B3 /* Models */,
+				9E7EB0EB2A7E8BCB0018616A /* Components */,
+				9E6D5ADE2A7E6005000947B3 /* Views */,
+				9E4613822A7E379A00248337 /* Application.swift */,
+				9E7EB0FE2A7EB3FA0018616A /* Entitlements.entitlements */,
+				9E2192A72A7FADEE006D0617 /* Info.plist */,
+				9E46134B2A7E372600248337 /* Assets.xcassets */,
+				9E46134D2A7E372600248337 /* Preview Content */,
+			);
+			path = "App (iOS)";
+			sourceTree = "<group>";
+		};
+		9E46134D2A7E372600248337 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E46134E2A7E372600248337 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E4613582A7E372600248337 /* App (watchOS) */ = {
+			isa = PBXGroup;
+			children = (
+				9EA0E1052A80AEA600B29612 /* View */,
+				9EA0E1012A80A48800B29612 /* Models */,
+				9E4613592A7E372600248337 /* Application.swift */,
+				9E46135D2A7E372700248337 /* Assets.xcassets */,
+				9E46135F2A7E372700248337 /* Preview Content */,
+			);
+			path = "App (watchOS)";
+			sourceTree = "<group>";
+		};
+		9E46135F2A7E372700248337 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E4613602A7E372700248337 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E46136B2A7E375300248337 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EB0FD2A7EB3DF0018616A /* Extension */,
+				9E7EB0EE2A7E8E090018616A /* Api */,
+				9E46136C2A7E375300248337 /* Type */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9E46136C2A7E375300248337 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				9E46136E2A7E375300248337 /* DayOfWeek.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		9E4613942A7E384E00248337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E4613952A7E384E00248337 /* WidgetKit.framework */,
+				9E4613972A7E384E00248337 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E4613992A7E384E00248337 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				9E2192A62A7FA9FF006D0617 /* Extension */,
+				9E7EB0FB2A7EB2C10018616A /* Widget */,
+				9E4613A92A7E38A700248337 /* AppWidgetBundle.swift */,
+				9E7EB0FF2A7EB4590018616A /* Entitlements.entitlements */,
+				9E4613A02A7E385000248337 /* Info.plist */,
+				9E46139E2A7E385000248337 /* Assets.xcassets */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		9E6D5ADE2A7E6005000947B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E6D5AD82A7E4D1E000947B3 /* MainView.swift */,
+				9E7EB0F92A7EB15A0018616A /* MealView.swift */,
+				9E7EB0F72A7EADFB0018616A /* TimeTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E6D5ADF2A7E600C000947B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EB0F32A7E90170018616A /* SettingModel.swift */,
+				9E6D5AE02A7E602B000947B3 /* ModalModel.swift */,
+				9EA0E0FF2A80A41200B29612 /* WatchConnectivityModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E6D5AE62A7E63EE000947B3 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				9E6D5AE72A7E63F8000947B3 /* ThemeColor.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		9E7EB0EB2A7E8BCB0018616A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9E7EB0E92A7E8B7A0018616A /* SettingModal.swift */,
+				9E7EB0F52A7EA8120018616A /* ErrorModal.swift */,
+				9E7EB0EC2A7E8BD40018616A /* ProfileCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9E7EB0EE2A7E8E090018616A /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				9E46136F2A7E375300248337 /* Teacher.swift */,
+				9E4613712A7E375300248337 /* School.swift */,
+				9E4613722A7E375300248337 /* TimeTable.swift */,
+				9E4613702A7E375300248337 /* Meal.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		9E7EB0FB2A7EB2C10018616A /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				9E4613A82A7E38A700248337 /* TimeTableWidget.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		9E7EB0FD2A7EB3DF0018616A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9E4613732A7E375300248337 /* UserDefaults.swift */,
+				9E6D5ADA2A7E512B000947B3 /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9EA0E1012A80A48800B29612 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EA0E1022A80A49600B29612 /* WatchConnectivityModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9EA0E1052A80AEA600B29612 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E46135B2A7E372600248337 /* MainView.swift */,
+				9EA0E1062A80AFA600B29612 /* MealView.swift */,
+				9E963CCF2A80BAE8008686FB /* TimeTableView.swift */,
+				9EAF81A12A80C6CD0057557D /* ErrorView.swift */,
+				9EAF81A62A80CAA60057557D /* FirstSettingInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E4613432A7E372500248337 /* Teacher Plan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E4613682A7E372700248337 /* Build configuration list for PBXNativeTarget "Teacher Plan" */;
+			buildPhases = (
+				9E4613402A7E372500248337 /* Sources */,
+				9E4613412A7E372500248337 /* Frameworks */,
+				9E4613422A7E372500248337 /* Resources */,
+				9E4613672A7E372700248337 /* Embed Watch Content */,
+				9E4613A72A7E385000248337 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E4613572A7E372600248337 /* PBXTargetDependency */,
+				9E4613A22A7E385000248337 /* PBXTargetDependency */,
+			);
+			name = "Teacher Plan";
+			productName = "Teacher Plan";
+			productReference = 9E4613442A7E372500248337 /* Teacher Plan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E4613532A7E372600248337 /* Teacher Plan Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E4613642A7E372700248337 /* Build configuration list for PBXNativeTarget "Teacher Plan Watch App" */;
+			buildPhases = (
+				9E4613502A7E372600248337 /* Sources */,
+				9E4613512A7E372600248337 /* Frameworks */,
+				9E4613522A7E372600248337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Teacher Plan Watch App";
+			productName = "Teacher Plan Watch App";
+			productReference = 9E4613542A7E372600248337 /* Teacher Plan Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E4613922A7E384E00248337 /* WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E4613A42A7E385000248337 /* Build configuration list for PBXNativeTarget "WidgetExtension" */;
+			buildPhases = (
+				9E46138F2A7E384E00248337 /* Sources */,
+				9E4613902A7E384E00248337 /* Frameworks */,
+				9E4613912A7E384E00248337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetExtension;
+			productName = WidgetExtension;
+			productReference = 9E4613932A7E384E00248337 /* WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E46133C2A7E372500248337 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9E4613432A7E372500248337 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9E4613532A7E372600248337 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9E4613922A7E384E00248337 = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 9E46133F2A7E372500248337 /* Build configuration list for PBXProject "Teacher Plan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E46133B2A7E372500248337;
+			productRefGroup = 9E4613452A7E372500248337 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E4613432A7E372500248337 /* Teacher Plan */,
+				9E4613532A7E372600248337 /* Teacher Plan Watch App */,
+				9E4613922A7E384E00248337 /* WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E4613422A7E372500248337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E46134F2A7E372600248337 /* Preview Assets.xcassets in Resources */,
+				9E46134C2A7E372600248337 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4613522A7E372600248337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4613612A7E372700248337 /* Preview Assets.xcassets in Resources */,
+				9E46135E2A7E372700248337 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4613912A7E384E00248337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E46139F2A7E385000248337 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E4613402A7E372500248337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4613892A7E379A00248337 /* Application.swift in Sources */,
+				9E6D5AD92A7E4D1E000947B3 /* MainView.swift in Sources */,
+				9E7EB0F62A7EA8120018616A /* ErrorModal.swift in Sources */,
+				9E7EB0F82A7EADFB0018616A /* TimeTableView.swift in Sources */,
+				9E46137C2A7E375300248337 /* School.swift in Sources */,
+				9E46137E2A7E375300248337 /* TimeTable.swift in Sources */,
+				9E7EB0ED2A7E8BD40018616A /* ProfileCard.swift in Sources */,
+				9EA0E1002A80A41200B29612 /* WatchConnectivityModel.swift in Sources */,
+				9E6D5AE82A7E63F8000947B3 /* ThemeColor.swift in Sources */,
+				9E4613782A7E375300248337 /* Teacher.swift in Sources */,
+				9E7EB0EA2A7E8B7A0018616A /* SettingModal.swift in Sources */,
+				9E4613762A7E375300248337 /* DayOfWeek.swift in Sources */,
+				9E6D5AE12A7E602B000947B3 /* ModalModel.swift in Sources */,
+				9E4613802A7E375300248337 /* UserDefaults.swift in Sources */,
+				9E6D5ADB2A7E512B000947B3 /* Color.swift in Sources */,
+				9E7EB0F42A7E90170018616A /* SettingModel.swift in Sources */,
+				9E46137A2A7E375300248337 /* Meal.swift in Sources */,
+				9E7EB0FA2A7EB15A0018616A /* MealView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4613502A7E372600248337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E46137D2A7E375300248337 /* School.swift in Sources */,
+				9E46137F2A7E375300248337 /* TimeTable.swift in Sources */,
+				9EAF81A72A80CAA70057557D /* FirstSettingInfoView.swift in Sources */,
+				9EA0E1042A80A49A00B29612 /* WatchConnectivityModel.swift in Sources */,
+				9E46135C2A7E372600248337 /* MainView.swift in Sources */,
+				9E4613792A7E375300248337 /* Teacher.swift in Sources */,
+				9E4613772A7E375300248337 /* DayOfWeek.swift in Sources */,
+				9E2192A82A7FAE86006D0617 /* UserDefaults.swift in Sources */,
+				9EA0E1072A80AFA600B29612 /* MealView.swift in Sources */,
+				9E963CD02A80BAE8008686FB /* TimeTableView.swift in Sources */,
+				9E6D5ADC2A7E512B000947B3 /* Color.swift in Sources */,
+				9E46137B2A7E375300248337 /* Meal.swift in Sources */,
+				9EAF81A22A80C6CD0057557D /* ErrorView.swift in Sources */,
+				9E46135A2A7E372600248337 /* Application.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E46138F2A7E384E00248337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4613B42A7E39B800248337 /* TimeTable.swift in Sources */,
+				9E4613AF2A7E39B800248337 /* DayOfWeek.swift in Sources */,
+				9E4613AB2A7E38A700248337 /* TimeTableWidget.swift in Sources */,
+				9E7EB0FC2A7EB3210018616A /* ThemeColor.swift in Sources */,
+				9E4613B32A7E39B800248337 /* School.swift in Sources */,
+				9E4613B22A7E39B800248337 /* Meal.swift in Sources */,
+				9E2192A52A7FA9A7006D0617 /* View.swift in Sources */,
+				9E2192A92A7FAE86006D0617 /* UserDefaults.swift in Sources */,
+				9E4613B12A7E39B800248337 /* Teacher.swift in Sources */,
+				9E6D5ADD2A7E512B000947B3 /* Color.swift in Sources */,
+				9E4613AC2A7E38A700248337 /* AppWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E4613572A7E372600248337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E4613532A7E372600248337 /* Teacher Plan Watch App */;
+			targetProxy = 9E4613562A7E372600248337 /* PBXContainerItemProxy */;
+		};
+		9E4613A22A7E385000248337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E4613922A7E384E00248337 /* WidgetExtension */;
+			targetProxy = 9E4613A12A7E385000248337 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9E4613622A7E372700248337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "티플";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		9E4613632A7E372700248337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "티플";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		9E4613652A7E372700248337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App (watchOS)/Preview Content\"";
+				DEVELOPMENT_TEAM = 696F6L9K57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "티플";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.github.ioloolo.Teacher-Plan";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ioloolo.Teacher-Plan.watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		9E4613662A7E372700248337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App (watchOS)/Preview Content\"";
+				DEVELOPMENT_TEAM = 696F6L9K57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "티플";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.github.ioloolo.Teacher-Plan";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ioloolo.Teacher-Plan.watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		9E4613692A7E372700248337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = "App (iOS)/Entitlements.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App (iOS)/Preview Content\"";
+				DEVELOPMENT_TEAM = 696F6L9K57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "App (iOS)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "티플";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ioloolo.Teacher-Plan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9E46136A2A7E372700248337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = "App (iOS)/Entitlements.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App (iOS)/Preview Content\"";
+				DEVELOPMENT_TEAM = 696F6L9K57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "App (iOS)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "티플";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ioloolo.Teacher-Plan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E4613A52A7E385000248337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Widget/Entitlements.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 696F6L9K57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "티플";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ioloolo.Teacher-Plan.widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9E4613A62A7E385000248337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Widget/Entitlements.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 696F6L9K57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "티플";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ioloolo.Teacher-Plan.widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E46133F2A7E372500248337 /* Build configuration list for PBXProject "Teacher Plan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4613622A7E372700248337 /* Debug */,
+				9E4613632A7E372700248337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E4613642A7E372700248337 /* Build configuration list for PBXNativeTarget "Teacher Plan Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4613652A7E372700248337 /* Debug */,
+				9E4613662A7E372700248337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E4613682A7E372700248337 /* Build configuration list for PBXNativeTarget "Teacher Plan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4613692A7E372700248337 /* Debug */,
+				9E46136A2A7E372700248337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E4613A42A7E385000248337 /* Build configuration list for PBXNativeTarget "WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4613A52A7E385000248337 /* Debug */,
+				9E4613A62A7E385000248337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E46133C2A7E372500248337 /* Project object */;
+}
