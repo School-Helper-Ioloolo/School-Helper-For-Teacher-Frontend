@@ -50,7 +50,7 @@ struct MainView: View {
                 modalModel.showModal(SettingModal())
             }
             
-            URLSession.shared.dataTask(with: URLRequest(url: URL(string: "https://shtapi.sondaehyeon.kro.kr/")!)) { data, response, error in
+            URLSession.shared.dataTask(with: URLRequest(url: URL(string: "https://teacher-plan.kro.kr/")!)) { data, response, error in
                 if let error = error {
                     modalModel.showModal(ErrorModal(error: error))
                 }

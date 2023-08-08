@@ -21,7 +21,7 @@ struct Teacher: Codable, Hashable {
     }
     
     static func fetch(school: School, result: Binding<[Teacher]>, onError: @escaping (Error) -> Void) {
-        let url = URL(string: "https://shtapi.sondaehyeon.kro.kr/api/timetable/teachers")!
+        let url = URL(string: "https://teacher-plan.kro.kr/api/timetable/teachers")!
         let bodyData = ["school": school.code]
         
         guard let jsonData = try? JSONSerialization.data(withJSONObject: bodyData) else {

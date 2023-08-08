@@ -33,7 +33,7 @@ struct School: Codable, Hashable {
             return
         }
         
-        let url = URL(string: "https://shtapi.sondaehyeon.kro.kr/api/timetable/school")!
+        let url = URL(string: "https://teacher-plan.kro.kr/api/timetable/school")!
         let bodyData = ["query": searchText]
         
         guard let jsonData = try? JSONSerialization.data(withJSONObject: bodyData) else {

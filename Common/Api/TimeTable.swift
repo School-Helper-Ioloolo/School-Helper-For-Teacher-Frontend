@@ -44,7 +44,7 @@ struct TimeTable: Codable, Identifiable {
     
     static func fetch(school: School, teacher: Teacher, isFetch: Binding<Bool>?, result: Binding<[TimeTable]>, onError: @escaping (Error) -> Void) {
         
-        let url = URL(string: "https://shtapi.sondaehyeon.kro.kr/api/timetable/timetable")!
+        let url = URL(string: "https://teacher-plan.kro.kr/api/timetable/timetable")!
         let bodyData = ["school": school.code, "teacher": teacher.id]
         
         guard let jsonData = try? JSONSerialization.data(withJSONObject: bodyData) else {
@@ -86,7 +86,7 @@ struct TimeTable: Codable, Identifiable {
     }
     
     static func fetch(school: School, teacher: Teacher) -> Result<[TimeTable], Error> {
-        let url = URL(string: "https://shtapi.sondaehyeon.kro.kr/api/timetable/timetable")!
+        let url = URL(string: "https://teacher-plan.kro.kr/api/timetable/timetable")!
         let bodyData = ["school": school.code, "teacher": teacher.id]
 
         guard let jsonData = try? JSONSerialization.data(withJSONObject: bodyData) else {

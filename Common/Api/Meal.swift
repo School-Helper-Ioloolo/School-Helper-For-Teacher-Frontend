@@ -33,7 +33,7 @@ struct Meal: Codable, Hashable, Identifiable {
     }
     
     static func fetch(school: School, isFetch: Binding<Bool>?, result: Binding<[Meal]>, onError: @escaping (Error) -> Void) {
-        let url = URL(string: "https://shtapi.sondaehyeon.kro.kr/api/meal")!
+        let url = URL(string: "https://teacher-plan.kro.kr/api/meal")!
         let bodyData = ["name": school.name, "location": school.location]
         
         guard let jsonData = try? JSONSerialization.data(withJSONObject: bodyData) else {
@@ -75,7 +75,7 @@ struct Meal: Codable, Hashable, Identifiable {
     }
     
     static func fetch(school: School) -> Result<[Meal], Error> {
-        let url = URL(string: "https://shtapi.sondaehyeon.kro.kr/api/meal")!
+        let url = URL(string: "https://teacher-plan.kro.kr/api/meal")!
         let bodyData = ["name": school.name, "location": school.location]
 
         guard let jsonData = try? JSONSerialization.data(withJSONObject: bodyData) else {

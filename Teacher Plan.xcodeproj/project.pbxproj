@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E2192A52A7FA9A7006D0617 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2192A22A7FA9A7006D0617 /* View.swift */; };
 		9E2192A82A7FAE86006D0617 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613732A7E375300248337 /* UserDefaults.swift */; };
 		9E2192A92A7FAE86006D0617 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4613732A7E375300248337 /* UserDefaults.swift */; };
 		9E46134C2A7E372600248337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E46134B2A7E372600248337 /* Assets.xcassets */; };
@@ -104,7 +103,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9E2192A22A7FA9A7006D0617 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		9E2192A72A7FADEE006D0617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E4613442A7E372500248337 /* Teacher Plan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teacher Plan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E46134B2A7E372600248337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -175,14 +173,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9E2192A62A7FA9FF006D0617 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				9E2192A22A7FA9A7006D0617 /* View.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 		9E46133B2A7E372500248337 = {
 			isa = PBXGroup;
 			children = (
@@ -279,7 +269,6 @@
 		9E4613992A7E384E00248337 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
-				9E2192A62A7FA9FF006D0617 /* Extension */,
 				9E7EB0FB2A7EB2C10018616A /* Widget */,
 				9E4613A92A7E38A700248337 /* AppWidgetBundle.swift */,
 				9E7EB0FF2A7EB4590018616A /* Entitlements.entitlements */,
@@ -561,7 +550,6 @@
 				9E7EB0FC2A7EB3210018616A /* ThemeColor.swift in Sources */,
 				9E4613B32A7E39B800248337 /* School.swift in Sources */,
 				9E4613B22A7E39B800248337 /* Meal.swift in Sources */,
-				9E2192A52A7FA9A7006D0617 /* View.swift in Sources */,
 				9E2192A92A7FAE86006D0617 /* UserDefaults.swift in Sources */,
 				9E4613B12A7E39B800248337 /* Teacher.swift in Sources */,
 				9E6D5ADD2A7E512B000947B3 /* Color.swift in Sources */,
@@ -710,7 +698,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"App (watchOS)/Preview Content\"";
 				DEVELOPMENT_TEAM = 696F6L9K57;
 				ENABLE_PREVIEWS = YES;
@@ -740,7 +728,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"App (watchOS)/Preview Content\"";
 				DEVELOPMENT_TEAM = 696F6L9K57;
 				ENABLE_PREVIEWS = YES;
@@ -773,7 +761,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_ENTITLEMENTS = "App (iOS)/Entitlements.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"App (iOS)/Preview Content\"";
 				DEVELOPMENT_TEAM = 696F6L9K57;
 				ENABLE_PREVIEWS = YES;
@@ -814,7 +802,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_ENTITLEMENTS = "App (iOS)/Entitlements.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"App (iOS)/Preview Content\"";
 				DEVELOPMENT_TEAM = 696F6L9K57;
 				ENABLE_PREVIEWS = YES;
@@ -856,7 +844,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Widget/Entitlements.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 696F6L9K57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Widget/Info.plist;
@@ -892,7 +880,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Widget/Entitlements.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 696F6L9K57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Widget/Info.plist;
