@@ -108,14 +108,14 @@ struct TimeTableWidgetView: View {
                             .font(.system(size: 18, weight: .bold))
                     }
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-                    .offset(x: 0, y: 0)
+                    .offset(x: 15, y: 15)
                 }
             }
-            .widgetBackground(ThemeColor.background(scheme: scheme))
+            .background(ThemeColor.background(scheme: scheme))
         } else {
             Text("앱을 실행 후 초기 설정을 진행해주세요")
                 .font(.system(size: 14))
-                .widgetBackground(ThemeColor.background(scheme: scheme))
+                .background(ThemeColor.background(scheme: scheme))
         }
     }
 }
