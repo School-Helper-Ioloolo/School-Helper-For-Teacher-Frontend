@@ -23,7 +23,7 @@ class WatchConnectivityModel: NSObject, WCSessionDelegate {
     }
     
     func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
-        if let request = message["request"] as? String, request == "update" {
+        if let request = message["req"] as? String, request == "update" {
             WatchConnectivityModel.shared.session.sendMessage(
                 [
                     "school": (try? JSONEncoder().encode(School.get() ?? School(code: -1, name: "", location: "")))!,
