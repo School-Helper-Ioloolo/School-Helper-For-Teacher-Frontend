@@ -6,6 +6,8 @@ struct School: Codable, Hashable {
     let name: String
     let location: String
     
+    static var uuid: UUID = UUID()
+    
     enum CodingKeys: String, CodingKey {
         case code
         case name
@@ -28,7 +30,7 @@ struct School: Codable, Hashable {
         }
     }
     
-    static func fetch(searchText: String, result: Binding<[School]>, onError: @escaping (Error) -> Void) {
+    static func fetch(searchText: String, uuid: UUID, result: Binding<[School]>, onError: @escaping (Error) -> Void) {
         if searchText.isEmpty {
             return
         }
@@ -58,8 +60,11 @@ struct School: Codable, Hashable {
             
             do {
                 let schools = try JSONDecoder().decode([School].self, from: data)
-                DispatchQueue.main.async {
-                    result.wrappedValue = schools
+           
+                if School.uuid == uuid {
+                    DispatchQueue.main.async {
+                        result.wrappedValue = schools
+                    }
                 }
             } catch {
                 onError(error)

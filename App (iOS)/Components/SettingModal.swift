@@ -149,8 +149,13 @@ private struct SettingSchoolView: View {
                 .background(Color(.secondarySystemBackground))
                 .cornerRadius(20)
                 .onChange(of: searchText) { _ in
+                    let lastSearchId = UUID()
+                    
+                    School.uuid = lastSearchId
+                    
                     School.fetch(
                         searchText: searchText,
+                        uuid: lastSearchId,
                         result: $searchResults,
                         onError: { error in
                             ModalModel.shared.showModal(ErrorModal(error: error))
